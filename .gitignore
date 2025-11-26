@@ -1,0 +1,21 @@
+# Backend (Java / Spring / IntelliJ)  
+ProjetoDelivery/target/  
+ProjetoDelivery/.idea/  
+ProjetoDelivery/*.iml  
+ProjetoDelivery/.mvn/  
+ProjetoDelivery/.gradle/  
+ProjetoDelivery/build/
+  
+# Frontend (Node / React / etc.)  
+FrontEndDelivery/node_modules/  
+FrontEndDelivery/delivery-frontend/node_modules/  
+FrontEndDelivery/delivery-frontend/dist/  
+FrontEndDelivery/delivery-frontend/.next/  
+FrontEndDelivery/delivery-frontend/.vite/
+  
+# Node na raiz (se existir)  
+node_modules/
+  
+# Geral  
+.DS_Store  
+Thumbs.db

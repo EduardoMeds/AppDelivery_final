@@ -1,0 +1,16 @@
+/* src/index.css */
+/* Garante que a aplicação ocupe toda a altura da tela para o layout fixo */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Permite usar flexbox para o layout da página */
+  flex-direction: column; /* Organiza os elementos filhos em coluna */
+}
+
+/* Garante que o conteúdo principal (main) dentro do layout preencha o espaço restante */
+main {
+  flex: 1; /* Permite que o elemento <main> cresça e ocupe todo o espaço disponível */
+  display: flex; /* Necessário para alinhar o conteúdo interno das páginas */
+  flex-direction: column; /* Organiza o conteúdo das páginas em coluna */
+}
